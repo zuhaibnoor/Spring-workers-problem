@@ -6,7 +6,7 @@ crate is full, it calls the loader. It waits for the loader to place this crate 
 new crate for the pickers. We assume there is enough space in the truck for all crates. All pickers return to the
 main function when the tree is bare. In the end, the loader places any partially filled crate in the truck if present.
 If a picker is adding to the last crate, the loader waits for it to complete the action.
-Points to note:
+Points to note: <br>
 • The number of fruits on the tree is known globally.
 • This tree is implemented as an integer array to represent different pieces of fruit.
 • The main function provides a shared empty crate when execution starts.
