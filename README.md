@@ -7,9 +7,9 @@ new crate for the pickers. We assume there is enough space in the truck for all 
 main function when the tree is bare. In the end, the loader places any partially filled crate in the truck if present.
 If a picker is adding to the last crate, the loader waits for it to complete the action.
 Points to note: <br>
-• The number of fruits on the tree is known globally.
-• This tree is implemented as an integer array to represent different pieces of fruit.
-• The main function provides a shared empty crate when execution starts.
-• A piece of fruit can be picked only once and by only one picker for obvious reasons.
+• The number of fruits on the tree is known globally. <br>
+• This tree is implemented as an integer array to represent different pieces of fruit.<br>
+• The main function provides a shared empty crate when execution starts.<br>
+• A piece of fruit can be picked only once and by only one picker for obvious reasons.<br>
 Synchronize the processes, enforcing mutual exclusion where necessary. Produce a working code such that the
 output identifies each action and the agent performing this action.
